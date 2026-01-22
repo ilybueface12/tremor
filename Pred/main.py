@@ -46,7 +46,7 @@ for i in range(10):
     abilities_list = ['Ледяной Прыжок', 'Тайный побег', 'Ледяной выстрел', \
     'Стремительный удар', 'Электрический выстрел', 'Кислотный взгляд', \
     'Огненный гуленый', 'Ледяной удар']
-    selected = [random.choice(abilities_list) for _ in range(1)]
+    selected = [random.choice(abilities_list) for _ in range(3)]
     abilities_result = (
         ' '.join(selected)
         .translate(str.maketrans(alphabet_spisok))
