@@ -56,7 +56,11 @@ for i in range(10):
         "name": info,
         "job": infoj,
         "address": infoad,
-        "strength": lvl,
+        "Сила": lvl,
+        "Ловкость": lvl,
+        "Выносливость": lvl,
+        "Интелект": lvl,
+        "УДача": lvl,
         "special_ability": abilities_result
     }
 
